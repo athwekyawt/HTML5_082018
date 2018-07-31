@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Template</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="My HTML5 course tutorial walkthrough">
+    <meta name="keywords" content="HTML5,CSS,Javascript">
+    <meta name="author" content="AThwe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="./images/html5.png" type="image/png" sizes="16x16">
+
+    <!-- links to external css style to be included for this website.-->
+
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/form.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="./images/comworks.jpg" alt="ComWorks Pte Ltd">
+        </figure>
+
+    </header>
+    <div id="menubar" class="topnav">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+
+        <div id="searchbar" class="search-container">
+            <form action="#action"></form>
+            <input type="text" placeholder="Search..." name="Search">
+            <button type="submit">
+                <i class="fas fa-search fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <h1>Contact Us</h1>
+    <div class="lastdiv">
+        <div class="column1 containerleft">
+
+        </div>
+        <div class="column1 containermiddle">
+            <form class="form1" action="#" method="POST">
+                <div>
+                    <label class="formlabel" for="fname">First name</label>
+                    <input type="text" id="fname" class="formcss" name="firstname" placeholder="Your first name">
+                </div>
+                <div>
+                    <label class="formlabel" for="lname">Last name</label>
+                    <input type="text" id="lname" class="formcss" name="lastname" placeholder="Your last name">
+                </div>
+                <div>
+                    <i id="letterIcon" class="fas fa-envelope"></i>
+                    <label class="formlabel1" for="email">Email</label>
+                    <input type="email" id="email" class="formcss" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <i id="globeIcon" class="fas fa-globe-americas"></i>
+                    <label class="formlabel1" for="country">Country</label>
+                    <select id="country" class="formcss1">
+                        <option value="sg">Singapore</option>
+                        <option value="my">Malaysia</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+                <div>
+                    <i id="fileIcon" class="fas fa-file-contract"></i>
+                    <label class="formlabel1" for="description">Description</label>
+                    <textarea id="subject" class="formcss" placeholder="Write something..." rows="5"></textarea>
+                </div>
+                <div class="lastdiv">
+                    <input type="submit" value="Submit" class="formbutton">
+                </div>
+            </form>
+        </div>
+        <div class="column1 containerright">
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="bottomrow">
+            <div class="bottomcolumn">
+                <a href="https://www.facebook.com">
+                    <i id="fb" class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://www.google.com">
+                    <i id="gl" class="fab fa-google fa-2x"></i>
+                </a>
+                <a href="https://www.snapchat.com">
+                    <i id="sc" class="fab fa-snapchat fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i id="ig" class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <small>&copy;Copyrights 2018. ComWorks Pte Ltd.</small>
+    </footer>
+</body>
+
+</html>

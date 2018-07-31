@@ -1,0 +1,54 @@
+.column1{
+    background-color: rgb(20, 233, 215);
+   float: left;
+   padding: 10px;
+   height: 100%; 
+   margin:5px;
+
+}
+.containerleft, .containerright{
+    width:15%;
+    }
+.containermiddle{
+    width: 60%;
+}
+.formlabel{
+    display:inline-block;
+    width:15%;
+}
+.formlabel1{
+    display:inline-block;
+    width:100px;
+}
+.formcss{
+    width: 70%;
+    padding: 12px;
+    border: 1px dotted green;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.formcss1{
+    width: 73%;
+    padding: 12px;
+    border: 1px dotted green;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.formbutton{
+background-color: rgb(36, 16, 212);
+columns: white;
+padding:12px 20px;
+border:none;
+border-radius: 4px;
+float:right;
+cursor:pointer;
+font-weight: bold;
+font-size: 10pt;
+}
+label,#letterIcon,#globeIcon,#fileIcon {
+    display: block;
+    float: left;
+    padding-top: 1px; /*This needs to be modified to fit */
+ }
