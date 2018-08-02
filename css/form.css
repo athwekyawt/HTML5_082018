@@ -1,5 +1,6 @@
 .column1{
-    background-color: rgb(20, 233, 215);
+    /*background-color: rgb(20, 233, 215);*/
+    background: linear-gradient(to bottom, #33ccff 0%, #ff9999 100%);
    float: left;
    padding: 10px;
    height: 100%; 

@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="./css/form.css" type="text/css">
+    <link rel="stylesheet" href="./css/contact.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
 
@@ -47,23 +48,26 @@
         <div class="column1 containerleft">
         </div>
         <div class="column1 containermiddle">
-            <form class="form1" action="#" method="POST">
+            <form class="contact_form" action="#" method="POST">
                 <div>
                     <label class="formlabel" for="fname">First name</label>
-                    <input type="text" id="fname" class="formcss" name="firstname" placeholder="Your first name">
+                    <input type="text" id="fname" class="formcss" name="firstname" placeholder="Your first name" required>
+                    <span class="form_hint">Firstname is required</span>
                 </div>
                 <div>
                     <label class="formlabel" for="lname">Last name</label>
-                    <input type="text" id="lname" class="formcss" name="lastname" placeholder="Your last name">
+                    <input type="text" id="lname" class="formcss" name="lastname" placeholder="Your last name" required>
+                    <span class="form_hint">Lastname is required</span>
                 </div>
                 <div>
                     <i id="letterIcon" class="fas fa-envelope"></i>
-                    <label class="formlabel1" for="email">Email</label>
-                    <input type="email" id="email" class="formcss" name="email" placeholder="Email">
+                    <label class="formlabel" for="email">Email</label>
+                    <input type="email" id="email" class="formcss" name="email" placeholder="Email" required>
+                    <span class="form_hint">Enter valid email format</span>
                 </div>
                 <div>
                     <i id="globeIcon" class="fas fa-globe-americas"></i>
-                    <label class="formlabel1" for="country">Country</label>
+                    <label class="formlabel" for="country">Country</label>
                     <select id="country" class="formcss1">
                         <option value="sg">Singapore</option>
                         <option value="my">Malaysia</option>
@@ -76,7 +80,7 @@
                     <textarea id="subject" class="formcss" placeholder="Write something..." rows="5"></textarea>
                 </div>
                 <div class="lastdiv">
-                    <input type="submit" value="Submit" class="formbutton">
+                    <button type="submit" class="formbutton">Submit</button>
                 </div>
             </form>
         </div>

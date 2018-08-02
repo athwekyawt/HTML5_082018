@@ -82,7 +82,7 @@ body{
     }
 
     .row{
-        background: linear-gradient(to bottom, #33ccff 0%, #ff9999 100%);
+        /*background-color: yellow;*/
         border-radius: 10px;
         padding: 10px 10px 10px 10px;
         margin:10px 10px 10px 10px;
@@ -94,19 +94,19 @@ body{
     }
     .column{
         float:left;
-        background-color:rgb(33, 230, 230);
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     }
     .left{
-        width:15%;
-        text-align: center;
+        width:70%;
+        text-align: left;
    }
     .right{
-        width:75%;
+        width:20%;
         margin: 0px 10px 10px 10px;
-        padding: 10px 10px 10px 10px;
+        padding: 30px 10px 30px 10px;
     }
     .roworigin{
-        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        /*background-color: yellow;*/
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
         border-radius: 10px;
